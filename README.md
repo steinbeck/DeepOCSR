@@ -3,6 +3,9 @@ DeepOCSR is a collaborative project to develop and maintain unified training and
 
 ![tranlating bitmaps of chemical structures back to connection tables with Deep Neural Netoworks](/resources/deepOCSRscheme.png)
 
+A growing number of deep-learning-based methods for deepOCSR is being published (see references). To increase comparability of methods and provide easier access for new developers to proven sets of training and test data, this repository will provide guidance. 
+Most if not all methods published to far require millions of datapoints for training. As of today, no sizable datasets of real-world images from publications with annotated machine-readable structures exist, so that training data must be artificially generated and augmented. Augmentation in this context means deterioration of quality through image manipulation methods (adding noise, etc) to match the quality of scanned pages from the literature. 
+
 # References
 1.  Molecular Structure Extraction from Documents Using Deep Learning : https://pubs.acs.org/doi/full/10.1021/acs.jcim.8b00669
 	Joshua Staker*, Kyle Marshall*, Robert Abel, and Carolyn M. McQuaw
